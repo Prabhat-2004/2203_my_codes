@@ -1,22 +1,32 @@
-def det(name,age,city,dist):
-    print(f"Hello {name}, Welcome to in our World...!!!")
-    print(f"Your age is {age}....!!!")
-    print(f"And your city is {city} from {dist} District...!!!",end="\n\n")
-det("Preeti","19","Bilahigarh","Rourkela")
-det("Prabhat","20","Chatrapur","Ganjam")
+'''class Emplyee:
+    name = 'Prahat'
+    age = 21
 
-#WAPP to addition of two numbers by taking inupt from user...!!!
-'''WITHOUT PARAMETER WITHOUT RETURN VALUE'''
-def addx():
-   a = int(input("Enter 1: "))
-   b = int(input("Enter 2: "))
-   print("OUTPUT:",a+b)
-addx()
+    def teach(self):
+        print("Teach students")
+e1 = Emplyee()
+e2 = Emplyee()
 
-'''WITH PARAMETER WITH RETURN VALUE'''
-def add(a,b):
-    return(a+b)
-num1 = int(input("Enter num 1: "))
-num2 = int(input("Enter num 2: "))
-res = add(num1,num2)
-print("OUTPUT:",res)
+print(e1.name)
+print(e2.age)
+e1.teach()
+e2.teach()'''
+
+
+class Employee:
+    company_name ="code"
+    def work(self):
+        print(f'Company: {self.company_name}, Name: {self.name}, UID: {self.id}, Employee is on work')
+    def play(self):
+        print(f"Company: {self.company_name}, Name: {self.name}, UID: {self.id},Employee in playGround")
+
+e1 = Employee()
+e1.name = "Ramesh"
+e1.id = 373
+e1.work()
+print()
+e2 = Employee()
+e2.name = "Rajesh"
+e2.id = 383
+e2.work()
+e2.play()
