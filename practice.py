@@ -1,15 +1,22 @@
-# s1 = "Prabhat"
-# s2 = "Kumar"
+def det(name,age,city,dist):
+    print(f"Hello {name}, Welcome to in our World...!!!")
+    print(f"Your age is {age}....!!!")
+    print(f"And your city is {city} from {dist} District...!!!",end="\n\n")
+det("Preeti","19","Bilahigarh","Rourkela")
+det("Prabhat","20","Chatrapur","Ganjam")
 
-# print("Adress os s1",id(s1))
-# print("Adress os s2",id(s2))
-# print("Adress of 'a' from s1:",id(s1[2]))
-# print("Adress of 'a' from s1:",id(s1[5]))
-# print("Adress of 'a' from s2:",id(s2[3]))
- 
+#WAPP to addition of two numbers by taking inupt from user...!!!
+'''WITHOUT PARAMETER WITHOUT RETURN VALUE'''
+def addx():
+   a = int(input("Enter 1: "))
+   b = int(input("Enter 2: "))
+   print("OUTPUT:",a+b)
+addx()
 
-full_name = "Prabhat Kumar Dakua"
-name_parts = full_name.split()
-initials_name = f"{name_parts[0]}" + " ".join([f"{name_parts[0]}." for name in name_parts[1:]])
-print("Name Parts: ", name_parts)
-print("Formated name with initials:", initials_name)
+'''WITH PARAMETER WITH RETURN VALUE'''
+def add(a,b):
+    return(a+b)
+num1 = int(input("Enter num 1: "))
+num2 = int(input("Enter num 2: "))
+res = add(num1,num2)
+print("OUTPUT:",res)
