@@ -1,71 +1,41 @@
-# 🐍 Python Programming Practice
+# Python Learning & Practice 🐍
 
-Welcome to my Python programming practice repository!
+Welcome to my Python Learning Repository!
 
-This repository contains my Python learning journey, coding exercises, programming concepts, and Object-Oriented Programming (OOP) examples.
+This repository contains my Python practice programs, coding examples, and learning exercises. I am using this repository to improve my Python programming skills through regular practice.
 
 ## 📚 Topics Covered
 
-### 1. Python Fundamentals
-- Variables and Data Types
-- Input and Output
-- Type Conversion
-- Operators
-- Conditional Statements
-- Loops
+| Folder | Description |
+|---|---|
+| `1_Basics` | Python fundamentals and basic programs |
+| `2_DataTypes` | Python data types |
+| `3_Operators` | Python operators |
+| `4_Functions` | Functions and their usage |
+| `5_ControlConstructs` | Conditional statements and loops |
+| `6_Data_Structures` | Python data structures |
+| `7_OOPS` | Object-Oriented Programming concepts |
+| `8_OPP_New` | Additional OOP practice |
+| `9_AdvancePython` | Advanced Python practice |
 
-### 2. Python Data Structures
-- Lists
-- Tuples
-- Sets
-- Dictionaries
-- List Comprehensions
+## 🎯 Learning Goals
 
-### 3. Strings
-- String Operations
-- String Manipulation
-- String Slicing
-- Split and Join
-- Uppercase and Lowercase
+- Improve Python programming skills.
+- Understand programming concepts with examples.
+- Practice problem-solving.
+- Build a strong programming foundation.
+- Prepare for technical interviews.
 
-### 4. Functions
-- User-Defined Functions
-- Return Statements
-- Yield
-- Packing and Unpacking
-
-### 5. Object-Oriented Programming (OOP)
-- Classes and Objects
-- Constructors
-- Encapsulation
-- Abstraction
-- Inheritance
-- Polymorphism
-- Method Overriding
-- Method Overloading
-- Static Methods
-- Class Methods
-- Method Chaining
-- Method Resolution Order (MRO)
-
-## 🎯 Purpose
-
-- Strengthen Python fundamentals.
-- Improve programming logic.
-- Practice coding problems.
-- Understand Object-Oriented Programming.
-- Build a strong programming foundation for Data Analytics.
-
-## 🛠️ Language
+## 🛠️ Technologies
 
 - Python
 
-## 👨‍💻 Author
+## 📈 My Learning Journey
 
-**Prabhat Dakua**
+I am continuously learning and adding new Python programs and practice exercises to this repository.
 
-GitHub: [Prabhat-2004](https://github.com/Prabhat-2004)
+This repository represents my learning progress. It will be updated as I explore new concepts and improve my coding skills.
 
 ---
 
-*Learning Python one program at a time!* 🚀
+**Thank you for visiting my repository!** ⭐
